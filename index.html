@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/estilos.css" rel="stylesheet" />
     <title>Hola este es el titulo</title>
 </head>
 <body>
@@ -18,8 +19,8 @@
         </ol>
         <h3>Esto es una lista Desordenada</h3>
         <ul>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
+            <li class="textoGris fondoAmarillo">Elemento 1</li>
+            <li class="textoAzul fondoRojo textoGrandeNegrita">Elemento 2</li>
             <li>Elemento 3</li>
             <li>Elemento 4</li>
             <li>Elemento 5</li>
@@ -39,15 +40,15 @@
             <a href="./formulario.html">Este es un link al formulario</a>
             <article>
                 <h3>Parrafo 1</h3>
-                <p>
+                <p class="textoAzul">
                     Esto es un parrafo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis repudiandae, tempora rerum quaerat quia eligendi tempore voluptas alias nemo minus laboriosam dolorem perferendis numquam excepturi recusandae sint qui nostrum veritatis!
                 </p>
                 <h3>Parrafo 2</h3>
-                <p>
+                <p class="textoGris">
                     Esto es el segundo parrafo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis repudiandae, tempora rerum quaerat quia eligendi tempore voluptas alias nemo minus laboriosam dolorem perferendis numquam excepturi recusandae sint qui nostrum veritatis!
                 </p>
                 <h3>Parrafo 3</h3>
-                <p>
+                <p id="parrafo3"> 
                     Esto es el tercer parrafo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis repudiandae, tempora rerum quaerat quia eligendi tempore voluptas alias nemo minus laboriosam dolorem perferendis numquam excepturi recusandae sint qui nostrum veritatis!
                 </p>
                 <h3>Parrafo 4</h3>
@@ -56,11 +57,37 @@
                 </p>
             </article>
             <span>Esto es un mensaje corto</span>
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Pomsky"/>
-            <img src="./media/Pomsky.jpeg" alt="Pomsky"/>
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+            <img class="imagenPequena" src="./media/Pomsky.jpeg" alt="Pomsky"/>
         </section>
-        <section>Seccion 2</section>
+        <section>
+            <div class="contenedorConMargin">
+                <div>Div1</div>
+                <div>Div2</div>
+                <div>Div3</div>
+                <div>Div4</div>
+                <div>Div5</div>
+            </div>
+            <div class="contenedorDivGrid">
+                <div class="divTest">Div1</div>
+                <div class="divTest">Div2</div>
+                <div class="divTest">Div3</div>
+                <div class="divTest">Div4</div>
+                <div class="divTest">Div5</div>
+                <div class="divTest">Div6</div>
+                <div class="divTest">Div7</div>
+                <div class="divTest">Div8</div>
+            </div>
+            <div class="contenedorDivFlex">
+                <div class="divTest">Div1</div>
+                <div class="divTest">Div2</div>
+                <div class="divTest">Div3</div>
+                <div class="divTest">Div4</div>
+                <div class="divTest">Div5</div>
+                <div class="divTest">Div6</div>
+                <div class="divTest">Div7</div>
+                <div class="divTest">Div8</div>
+            </div>
+        </section>
         <section>Seccion 3</section>
     </main>
     <footer>Datos de contacto empresa</footer>
